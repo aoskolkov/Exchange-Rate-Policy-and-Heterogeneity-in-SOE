@@ -5,7 +5,7 @@ This folder contains notebooks, pictures, results, and a data table.
 
 Notebooks with building blocks:
 - `setup.ipynb`: defines functions and structures
-- `fill_grids_parameters.ipynb`: uses numbers from calibration and data to construct storage files `parameters.jld2` and `external_parameters.jld2`
+- `fill_grids_parameters.ipynb`: constructs parameter storage files `parameters.jld2` and `external_parameters.jld2`
 
 Notebooks with computations:
 - `compute_steady_state.ipynb`: uses `parameters.jld2` and `external_parameters.jld2` to compute the steady state and save steady-state objects
@@ -29,6 +29,6 @@ Notebooks for plots and tables:
 - `alternative_IRF.ipynb`: plots Figures A.1 through A.10 in the Appendix
 - `fiscal_IRF.ipynb`: plots Figure A.11 in the Appendix
 
-The folder **graphs** containts these figures. Figure 6 and Table 1 in the paper are made by hand.
+The folder **graphs** contains these figures. Figure 6 and Table 1 in the paper are made by hand.
 
 The file `aggregate_data.xlsx` contains the aggregate series used for calibration.
