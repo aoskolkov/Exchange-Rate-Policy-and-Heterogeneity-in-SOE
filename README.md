@@ -3,7 +3,7 @@
 
 This folder contains the following notebooks:
 
-- **setup.ipynb**: defines functions and structures
+- <font color='darkblue'>float</font>setup.ipynb: defines functions and structures
 - **fill_grids_parameters.ipynb**: uses number from calibration and data to construct storage files **parameters.jld2** and **external_parameters.jld2**
 
 Notebooks with computations:
