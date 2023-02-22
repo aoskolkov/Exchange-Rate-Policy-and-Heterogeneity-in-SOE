@@ -8,8 +8,8 @@ This folder contains the following notebooks:
 
 Notebooks with computations:
 - **compute_steady_state**: uses *parameters.jld2* and *external_parameters.jld2* to compute the steady state and save steady-state objects
-    -- options include setting the productivity gap between the sectors to *"baseline"*, *"equal"*, and *"switched"*
-    -- these options generate respective files with steady-state objects: *steady_state_output.jld2*, *steady_state_output_equal.jld2*, and *steady_state_output_switched.jld2*
+    * options include setting the productivity gap between the sectors to *"baseline"*, *"equal"*, and *"switched"*
+    * these options generate respective files with steady-state objects: *steady_state_output.jld2*, *steady_state_output_equal.jld2*, and *steady_state_output_switched.jld2*
 - **compute_transition**: uses storage files with the steady-state objects to compute the transition dynamics
     -- setting elasticities, setting the slope of the Phillips curve, setting the exchange rate regime, setting the fiscal regime
     -- these options generate storage files with time series in the folder *transition_results*
