@@ -12,9 +12,9 @@ Notebooks with computations:
     * these options generate respective files with steady-state objects: **steady_state_output.jld2**, **steady_state_output_equal.jld2**, and **steady_state_output_switched.jld2**
 - **compute_transition.ipynb**: uses storage files with the steady-state objects to compute the transition dynamics
     * setting elasticities, setting the slope of the Phillips curve, setting the exchange rate regime, setting the fiscal regime
-    * these options generate storage files with time series in the folder *transition_results*
-- **compute_TSRANK.ipynb**: uses uses storage files with the steady-state objects to calibrate the two-sector RANK model and compute the transition dynamics
-    * storage files with time series are in the folder *transition_results*
+    * these options generate storage files with the resulting time series in the folder *transition_results*
+- **compute_TSRANK.ipynb**: uses steady-state objects to calibrate the two-sector RANK model and compute the transition dynamics
+    * storage files with the resulting time series are in the folder *transition_results*
 
 Notebooks for plots and tables:
 - **plot_steady_state.ipynb**: plots Figure 1 in the paper
