@@ -27,4 +27,5 @@ Notebooks for plots and tables:
 - **alternative_rules_elasticities.ipynb**: plots Figure 8 in the paper
 - **alternative_IRF.ipynb**: plots Figures 9 through 18 in the Appendix
 - **fiscal_IRF.ipynb**: plots Figure 19 in the Appendix
+
 The folder *graphs* containts these figures. Figure 6 and Table 1 in the paper are made by hand.
