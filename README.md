@@ -4,7 +4,7 @@
 This folder contains the following notebooks:
 
 - **setup.ipynb**: defines functions and structures
-- **fill_grids_parameters.ipynb**: uses number from calibration and data to construct storage files **parameters.jld2** and **external_parameters.jld2**
+- **fill_grids_parameters.ipynb**: uses numbers from calibration and data to construct storage files **parameters.jld2** and **external_parameters.jld2**
 
 Notebooks with computations:
 - **compute_steady_state.ipynb**: uses **parameters.jld2** and **external_parameters.jld2** to compute the steady state and save steady-state objects
