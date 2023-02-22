@@ -11,10 +11,10 @@ Notebooks with computations:
     * options include setting the productivity gap between the sectors to *"baseline"*, *"equal"*, and *"switched"*
     * these options generate respective files with steady-state objects: *steady_state_output.jld2*, *steady_state_output_equal.jld2*, and *steady_state_output_switched.jld2*
 - **compute_transition**: uses storage files with the steady-state objects to compute the transition dynamics
-    -- setting elasticities, setting the slope of the Phillips curve, setting the exchange rate regime, setting the fiscal regime
-    -- these options generate storage files with time series in the folder *transition_results*
+    * setting elasticities, setting the slope of the Phillips curve, setting the exchange rate regime, setting the fiscal regime
+    * these options generate storage files with time series in the folder *transition_results*
 - **compute_TSRANK**: uses uses storage files with the steady-state objects to calibrate the two-sector RANK model and compute the transition dynamics
-    -- storage files with time series are in the folder *transition_results*
+    * storage files with time series are in the folder *transition_results*
 
 Notebooks for plots and tables:
 - **plot_steady_state**: plots Figure 1 in the paper
