@@ -5,11 +5,11 @@ This folder contains notebooks, pictures, results, and a data table.
 
 Notebooks with building blocks:
 - `setup.ipynb`: defines functions and structures
-- `fill_grids_parameters.ipynb`: constructs parameter storage files `parameters.jld2` and `external_parameters.jld2`
+- `fill_grids_parameters.ipynb`: constructs parameter storage files `parameters.jld2`, `external_parameters.jld2`, `external_parameters_equal.jld2`, and `external_parameters_switched.jld2`
 
 Notebooks with computations:
-- `compute_steady_state.ipynb`: uses `parameters.jld2` and `external_parameters.jld2` to compute the steady state and save steady-state objects
-    * options include setting the productivity gap between the sectors to *"baseline"*, *"equal"*, and *"switched"*
+- `compute_steady_state.ipynb`: uses `parameters.jld2` to compute the steady state and save steady-state objects
+    * options include setting the productivity gap between the sectors to *"baseline"*, *"equal"*, and *"switched"*, which use `external_parameters.jld2`, `external_parameters_equal.jld2`, and `external_parameters_switched.jld2` respectively
     * these options generate respective files with steady-state objects: `steady_state_output.jld2`, `steady_state_output_equal.jld2`, and `steady_state_output_switched.jld2`
 - `compute_transition.ipynb`: uses storage files with the steady-state objects to compute the transition dynamics
     * options include setting elasticities, setting the slope of the Phillips curve, setting the exchange rate regime, setting the fiscal regime
