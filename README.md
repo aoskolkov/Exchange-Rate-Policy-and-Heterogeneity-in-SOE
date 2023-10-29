@@ -1,5 +1,5 @@
 # Exchange Rate Policy and Heterogeneity in SOE
- Replication code for ["Exchange Rate Policy and Heterogeneity in Small Open Economies"](https://drive.google.com/uc?id=1myIGflHk8ryQb6O1wYtq6eb7NRbjNDRi&export=download)
+ Replication code for ["Exchange Rate Policy and Heterogeneity in Small Open Economies"](https://alekseioskolkov.com/files/exchange_rate_policy_heterogeneity.pdf)
 
 This folder contains notebooks, pictures, results, and a data table.
 
